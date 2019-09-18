@@ -1,10 +1,8 @@
 <div class="container">
   <div class="wrapper">
-    <app-search></app-search>
+    <app-search (enteredValueEvent)="onEnteredValue($event)"></app-search>
     <div class="posts">
-      <app-posts></app-posts>
+      <app-posts *ngIf="postsResponse" [posts]="postsResponse"></app-posts>
     </div>
   </div>
 </div>
-
-<!-- [posts]="postsResponse" -->
