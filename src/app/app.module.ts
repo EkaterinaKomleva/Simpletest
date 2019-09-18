@@ -8,12 +8,14 @@ import { SearchComponent } from './search/search.component';
 import { PostsComponent } from './posts/posts.component';
 
 import { SearchService } from './search.service';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
-    PostsComponent
+    PostsComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
