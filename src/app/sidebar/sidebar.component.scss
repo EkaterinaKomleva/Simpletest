@@ -1,26 +1,37 @@
+// :host {
+//   display: flex;
+// }
+
 aside {
-  position:fixed;
-  width: 17%;
-  height: 10em;
-  margin: 72px 0px 0px 0;
-  /* border-radius: 4px;
-  background-color: #adbedb; */
-  float: left;
+  // position:fixed;
+  width: 200px;
+  height: 100vh;
+  // margin: 72px 0px 0px 0;
+  background-color: #1d1d1e;
 
   li {
     list-style-type: none;
-    margin: 15px 0;
+    // margin: 40px 0;
   
     a {
       text-decoration: none;
       font-family: 'Open Sans', sans-serif;
-      font-size: 1.3em;
-      color: #fff;
+      font-size: 1.7em;
+      color: rgb(115, 209, 247);
+    }
+
+    .active {
+      color:#fff;
     }
 
     a:hover {
-      color: #aaa;
+      color: #fff;
     }
 
   }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }

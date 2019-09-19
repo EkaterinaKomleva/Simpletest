@@ -1,9 +1,16 @@
-.wrapper {
-  width: 610px;
-  padding: 40px;
-  margin-left: 33%;
-
-  .posts {
-    margin-top:50px;
-  }
+router-outlet {
+  float: right;
+  margin: 50px 90px 0 0;
+  background-color: #fff;
 }
+
+
+// .wrapper {
+//   width: 610px;
+//   padding: 40px;
+//   margin-left: 33%;
+
+//   .posts {
+//     margin-top:50px;
+//   }
+// }

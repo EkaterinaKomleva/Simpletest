@@ -10,4 +10,8 @@ export class SearchService {
   getPosts(id) {
     return this.http.get(`https://jsonplaceholder.typicode.com/posts/${id}`);
   }
+
+  getAlbum(id) {
+    return this.http.get(`https://jsonplaceholder.typicode.com/albums/${id}`);
+  }
 }
