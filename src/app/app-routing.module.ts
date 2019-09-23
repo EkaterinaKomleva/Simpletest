@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PostsComponent } from './posts/posts.component';
-import { AlbumsComponent } from './albums/albums.component';
 import { PostsContainerComponent } from './posts-container/posts-container.component';
+import { AlbumsContainerComponent } from './albums-container/albums-container.component';
+import { PhotosContainerComponent } from './photos-container/photos-container.component';
 
 const routes: Routes = [
     {
@@ -16,8 +16,12 @@ const routes: Routes = [
     },
     {
       path: 'albums',
-      component: AlbumsComponent
+      component: AlbumsContainerComponent
     },
+    {
+      path: 'album/:id',
+      component: PhotosContainerComponent
+    }
     // {path: 'albums/1/photos', component: AlbumsComponent},
   ]
 

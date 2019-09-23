@@ -3,10 +3,11 @@ html {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: #444;
+    background: #393a47;
   }
 }
 
 .container {
   display: flex;
+  justify-content: space-between;
 }

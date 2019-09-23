@@ -6,10 +6,10 @@
     height: 100%;
     // background: #444;
 
-    .album {
+    .photo {
         display: block;
         width: 240px;
-        height: 250px;
+        height: 260px;
         margin: 10px;
         text-decoration: none;
         background-color: #303138; // rgba(115, 209, 247, .5);
@@ -18,10 +18,20 @@
     0 0 1rem rgba(0,0,0,0.2);
         overflow: hidden;
 
-        h2 {
-            // font-size: 2rem;
-            margin: 20px;
-            color: #fff;
+        figure {
+            margin: 0;
+            padding: 0;
+            
+            img {
+                width: 240px;
+                height: 200px;
+            }
+
+            figcaption {
+                padding: 0 10px 0 10px;
+                font-size: .8rem;
+                color: #fff;
+            }
         }
     }
 }

@@ -12,6 +12,9 @@ import { AlbumsComponent } from './albums/albums.component';
 
 import { SearchService } from './search.service';
 import { PostsContainerComponent } from './posts-container/posts-container.component';
+import { AlbumsContainerComponent } from './albums-container/albums-container.component';
+import { PhotosComponent } from './photos/photos.component';
+import { PhotosContainerComponent } from './photos-container/photos-container.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { PostsContainerComponent } from './posts-container/posts-container.compo
     PostsComponent,
     SidebarComponent,
     AlbumsComponent,
-    PostsContainerComponent
+    PostsContainerComponent,
+    AlbumsContainerComponent,
+    PhotosComponent,
+    PhotosContainerComponent
   ],
   imports: [
     BrowserModule,

@@ -38,7 +38,7 @@ export class PostsContainerComponent implements OnInit {
       });
   }
 
-  recognizeType(resp) {
+  private recognizeType(resp) {
     if (Array.isArray(resp)) {
       return this.postsResponse = resp;
     } else {

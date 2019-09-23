@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: 'Open Sans', sans-serif;
 }
 
 img {
@@ -12,14 +11,15 @@ img {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
+  margin-right: 70px;
   align-items: center;
   height: 100%;
-  background: #444;
+  // background: #303138;  // было 444
 }
 
 .card {
   position: relative;
-  background: #333;
+  background: #303138;
   width: 290px;
   height: 70vh;
   margin: 7px 15px 15px 0;

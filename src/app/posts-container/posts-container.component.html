@@ -1,6 +1,4 @@
 <app-search (enteredValueEvent)="onEnteredValue($event)"></app-search>
-<div class="wrapper">
-  <div class="posts">
-    <app-posts *ngIf="postsResponse" [posts]="postsResponse"></app-posts>
-  </div>
+<div class="posts">
+  <app-posts *ngIf="postsResponse" [posts]="postsResponse"></app-posts>
 </div>
